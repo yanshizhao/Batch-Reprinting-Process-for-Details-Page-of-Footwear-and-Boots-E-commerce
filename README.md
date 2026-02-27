@@ -1,6 +1,6 @@
 # AI Image Downloader & Prompt Generator
 
-一个自动化的电商详情页复刻流程。
+自动化的电商详情页复刻流程。
 利用 火山引擎 TOS 作为云图床，将本地图片转化为公网可以访问的url 链接
 Doubao (Seed) 等大模型分析详情页构图详情，
 DeepSeek V3 将构图详情转换成nano banana pro的提示词。
