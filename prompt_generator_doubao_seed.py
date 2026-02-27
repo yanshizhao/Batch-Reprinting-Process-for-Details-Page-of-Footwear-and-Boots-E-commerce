@@ -1,3 +1,5 @@
+import requests
+from datetime import datetime
 
 def analysis_product_detail_page(client, image_urls):
     """
