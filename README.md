@@ -29,6 +29,7 @@ DeepSeek V3 将构图详情转换成nano banana pro的提示词。
    在 product_image 文件夹中新建 detail_page_template 文件夹
    在 detail_page_template 文件夹中创建需要复刻的产品详情页文件夹，为每一套详情页建立一个单独的文件夹
    将 模板详情页(即，想要复刻的模板)放在对应的产品详情页文件夹中，一次支持复刻6页
+   
 第二步：
    cd <项目文件夹>
    执行 python main.py
