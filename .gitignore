@@ -1,0 +1,26 @@
+# 忽略的文件
+#config.py
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略下载的图片目录 (假设叫 images 或 downloads，根据实际情况调整)
+images/
+downloads/
+*.jpg
+*.png
+*.jpeg
+*.webp
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+.DS_Store
