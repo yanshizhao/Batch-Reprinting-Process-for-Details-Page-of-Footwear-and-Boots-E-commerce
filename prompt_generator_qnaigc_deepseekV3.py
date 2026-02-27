@@ -16,10 +16,10 @@ def extract_prompts_from_response(response_dict):
 
     # 正则模式列表（按优先级排序，修正【Prompt X】的匹配规则）
     patterns = [
-        r'\*\*【Prompt \d+ - [^】]+】\*\*\s*(.*?)(?=\n\n\*\*【Prompt|\Z)',  # **【Prompt X - 标题】**（无换行也可）
-        r'【Prompt \d+ - [^】]+】\s*(.*?)(?=\n\n【Prompt|\Z)',            # 【Prompt X - 标题】（无换行也可）
-        r'【Prompt \d+】\s*(.*?)(?=\n\n【Prompt|\Z)',                    # 【Prompt X】（核心修正：去掉强制\n，匹配无换行场景）
-        r'\*\*Prompt \d+\*\*\s*(.*?)(?=\n\n\*\*Prompt|\Z)'              # **Prompt X**（无换行也可）
+        r'\*\*【Prompt \d+ - [^】]+】\*\*\s*(.*?)(?=\n\n\*\*【Prompt|\Z)', 
+        r'【Prompt \d+ - [^】]+】\s*(.*?)(?=\n\n【Prompt|\Z)',            
+        r'【Prompt \d+】\s*(.*?)(?=\n\n【Prompt|\Z)',                   
+        r'\*\*Prompt \d+\*\*\s*(.*?)(?=\n\n\*\*Prompt|\Z)'            
     ]
 
     try:
